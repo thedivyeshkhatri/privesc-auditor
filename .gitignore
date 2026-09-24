@@ -1,0 +1,27 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local environment files and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+id_rsa
+id_ed25519
+
+# Generated scan reports
+/report.html
+/findings.json
+
+# Editor and operating system files
+.DS_Store
+Thumbs.db
+.idea/
