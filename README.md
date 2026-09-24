@@ -130,9 +130,3 @@ authorized to assess (your own machines, lab VMs, or engagements with
 written authorization). It performs read-only checks and does not modify
 system state or attempt exploitation.
 
-## Roadmap
-
-- Add Windows checks for service permissions, unquoted paths, scheduled
-  tasks, and AlwaysInstallElevated.
-- Explore exporting findings to a companion tool that can model multi-step
-  attack paths.
